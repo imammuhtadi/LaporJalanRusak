@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical" >
+
+    <!-- id anggota (idmem) - akan di sembunyikan - digunakan untuk mengirim variabel id ke activity lain -->
+    <TextView
+        android:id="@+id/idjalan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:text="Asem"
+        android:textSize="18sp"
+        android:textColor="@color/abc_primary_text_material_light" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tingkat Kerusakan : "
+            android:id="@+id/textView4"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/kategori"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:text="Kategori"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>

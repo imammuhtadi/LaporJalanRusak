@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImamMuhtadi_125410307</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tambah">TambahActivity</string>
+    <string name="title_activity_tampil_data">TampilDataActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
